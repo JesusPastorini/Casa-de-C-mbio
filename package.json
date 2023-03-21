@@ -1,0 +1,23 @@
+{
+  "name": "casa-de-c-mbio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusPastorini/Casa-de-C-mbio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusPastorini/Casa-de-C-mbio/issues"
+  },
+  "homepage": "https://github.com/JesusPastorini/Casa-de-C-mbio#readme",
+  "dependencies": {
+    "vite": "^4.2.1"
+  }
+}
