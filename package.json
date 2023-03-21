@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JesusPastorini/Casa-de-C-mbio#readme",
   "dependencies": {
+    "sweetalert2": "^11.7.3",
     "vite": "^4.2.1"
   }
 }

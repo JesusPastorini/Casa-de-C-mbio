@@ -1,4 +1,5 @@
 import './style.css';
+import Swal from 'sweetalert2';
 
 const coin = document.querySelector('#coin');
 const botao = document.querySelector('#botao');
@@ -7,6 +8,13 @@ const listaMoeda = document.querySelector('.listaCoin');
 
 const executaClick = () => {
 const moeda = coin.value;
+    if (!moeda) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Você precisa passar uma moeda!',
+          })
+    };
 const url = `https://api.exchangerate.host/latest?base=${moeda}`;
 console.log(url);
     fetch(url)
